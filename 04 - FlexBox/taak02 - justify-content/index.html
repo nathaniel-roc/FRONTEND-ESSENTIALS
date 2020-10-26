@@ -6,13 +6,30 @@
     <title>Flexbox container</title>
 
     <style>
+        .container{ 
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type:none;
+        }
 
+        .menu-item{
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-family: monospace;
+            font-size: 100px;
+            font-size: 20px;
+        }
+        #home{
+            background-color: burlywood;
+        }
     </style>
 </head>
 <body>
    <nav>
        <ul class="container">
-           <li class="menu-item"><a href="#">Home</a></li>
+           <li class="menu-item" id="home"><a href="#">Home</a></li>
            <li class="menu-item"><a href="#">Over mij</a></li>
            <li class="menu-item"><a href="#">Vaardigheden</a></li>
            <li class="menu-item"><a href="#">Hobby's</a></li>
