@@ -1,0 +1,74 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/*boven*/
+#boven{
+    width: 900px;
+    height: 275px;
+}
+
+#roodlinksboven{
+    width: 325px;
+    height: 275px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+#witvertboven{
+    width: 50px;
+    height: 275px;
+    background-color: white;
+    display: inline-block;
+}
+
+#roodrechtsboven{
+    width: 525px;
+    height: 275px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+
+/*midden*/
+#witmidden{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+}
+
+
+/*onder*/
+#onder{
+    width: 900px;
+    height: 275px;
+}
+
+#roodlinksonder{
+    width: 325px;
+    height: 275px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+#witvertonder{
+    width: 50px;
+    height: 275px;
+    background-color: white;
+    display: inline-block;
+}
+
+#roodrechtsonder{
+    width: 525px;
+    height: 275px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}

@@ -1,0 +1,132 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/*boven*/
+#boven{
+    width: 900px;
+    height: 265px;
+}
+
+#roodlinksboven{
+    width: 315px;
+    height: 265px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+#witvertlinksboven{
+    width: 10px;
+    height: 265px;
+    background-color: white;
+    display: inline-block;
+}
+
+#blauwvertmiddenboven{
+    width: 50px;
+    height: 265px;
+    background-color: rgb(44, 44, 144);
+    display: inline-block;
+}
+
+#witvertrechtsboven{
+    width: 10px;
+    height: 265px;
+    background-color: white;
+    display: inline-block;
+}
+
+#roodrechtsboven{
+    width: 515px;
+    height: 265px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+
+/*midden*/
+#witblauwmiddenboven{
+    width: 900px;
+    height: 10px;
+}
+
+#witmiddenboven{
+    width: 325px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+#blauwwitboven{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(44, 44, 144);
+    display: inline-block;
+}
+
+#witwitrechts{
+    width: 525px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+#blauwmidden{
+    width: 900px;
+    height: 50px;
+    background-color: rgb(44, 44, 144);
+}
+
+#witmiddenonder{
+    width: 900px;
+    height: 10px;
+}
+
+/*onder*/
+#onder{
+    width: 900px;
+    height: 265px;
+}
+
+#roodlinksonder{
+    width: 315px;
+    height: 265px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}
+
+#witvertlinksonder{
+    width: 10px;
+    height: 265px;
+    background-color: white;
+    display: inline-block;
+}
+
+#blauwvertmiddenonder{
+    width: 50px;
+    height: 265px;
+    background-color: rgb(44, 44, 144);
+    display: inline-block;
+}
+
+#witvertrechtsonder{
+    width: 10px;
+    height: 265px;
+    background-color: white;
+    display: inline-block;
+}
+
+#roodrechtsonder{
+    width: 515px;
+    height: 265px;
+    background-color: rgb(179, 48, 48);
+    display: inline-block;
+}

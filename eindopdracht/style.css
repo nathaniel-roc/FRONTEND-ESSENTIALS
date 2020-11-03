@@ -1,0 +1,70 @@
+.naam{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body{
+    background-color: gray;
+    border-top: 5px solid #333;
+}
+
+#titel{
+    font-size: 6em;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+}
+
+.nav{ 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type:none;
+    background-color: #333;
+    position: fixed;
+}
+
+.menu{
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 20px;
+}   
+
+.naam{
+    color: orange;
+    flex: 10px;
+}
+
+
+
+/*Nederlandse vlag klein */
+
+#container{
+    width: 99px;
+    height: 33px;
+}
+
+#boven{
+    width: 33px;
+    height: 11px;
+    background-color: red;
+}
+
+#midden{
+    width: 33px;
+    height: 11px;
+    background-color: white;
+}
+
+#onder{
+    width: 33px;
+    height: 11px;
+    background-color: blue;
+}

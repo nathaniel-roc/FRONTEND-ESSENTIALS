@@ -11,10 +11,10 @@
             flex-direction: row;
             justify-content: center;
             list-style-type:none;
+            background-color: #333;
         }
 
         .menu-item{
-            color: white;
             text-align: center;
             padding: 50px;
             font-family: monospace;
@@ -22,7 +22,12 @@
             font-size: 20px;
         }
         #home{
-            background-color: burlywood;
+            background-color: rgb(162, 51, 51);
+        }
+        li a{
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -30,9 +35,9 @@
    <nav>
        <ul class="container">
            <li class="menu-item" id="home"><a href="#">Home</a></li>
-           <li class="menu-item"><a href="#">Over mij</a></li>
-           <li class="menu-item"><a href="#">Vaardigheden</a></li>
-           <li class="menu-item"><a href="#">Hobby's</a></li>
+           <li class="menu-item" id="over"><a href="#">Over mij</a></li>
+           <li class="menu-item" id="vaardigheden"><a href="#">Vaardigheden</a></li>
+           <li class="menu-item"id="hobby"><a href="#">Hobby's</a></li>
        </ul>
    </nav>
 </body>
