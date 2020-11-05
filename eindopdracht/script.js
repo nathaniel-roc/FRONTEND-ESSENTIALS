@@ -36,6 +36,10 @@ if (leeftijdBezoeker == null){
     document.body.style.backgroundColor = "red";
 }
 
+//leeftijd
+var element = document.getElementById("id05");
+element.innerHTML = leeftijdBezoeker;
+
 //maker
 let admin = true;
 let adminTeken = "ADMIN = TRUE"
