@@ -1,0 +1,32 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven{
+    width: 900px;
+    height: 200px;
+    background-color: red;
+}
+
+#midden{
+    width: 900px;
+    height: 200px;
+    background-color: white;
+}
+
+#onder{
+    width: 900px;
+    height: 200px;
+    background-color: blue;
+}
+
